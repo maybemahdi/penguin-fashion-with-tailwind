@@ -29,15 +29,15 @@
 
 <body>
     <header class="bg-[#FFFBF0;]">
-        <nav class="flex py-5 px-5 lg:10 lg:px-32 flex-col justify-between items-center lg:flex-row">
-            <div class="flex flex-col md:space-y-2 md:flex-row justify-center items-center space-x-2">
+        <nav class="flex py-5 px-5 lg:py-10 lg:px-32 justify-between items-center">
+            <div class="flex md:space-y-2 md:flex-row justify-center items-center space-x-2">
                 <img src="./images/Frame.png" alt="">
                 <h2 class="text-[#363958] font-montserrat text-2xl font-bold"><span
                         class="text-[#A4BC46]">Penguin</span>
                     Fashion</h2>
             </div>
             <ul
-                class="flex flex-col items-center gap-2 mt-4 lg:mt-0 lg:flex-row lg:gap-14 text-[#3C3C3C] font-roboto text-base font-medium leading-6">
+                class="hidden lg:flex lg:items-center lg:mt-4 lg:flex-row lg:gap-14 text-[#3C3C3C] font-roboto text-base font-medium leading-6">
                 <a href="">
                     <li>Home</li>
                 </a>
@@ -51,13 +51,16 @@
                     <li>Contact Us</li>
                 </a>
             </ul>
+            <div class="lg:hidden">
+                <i class="fa-solid fa-bars"></i>
+            </div>
         </nav>
         <div class="py-5 px-5 lg:py-10 lg:px-32 flex flex-col justify-between items-center lg:flex-row">
             <div class="basis-1/2">
-                <h1 class="lg:w-3/5 font-bebas text-7xl font-normal leading-normal"><span class="text-[#FABE4C]">Be the
+                <h1 class="lg:w-3/5 w-full font-bebas text-7xl font-normal leading-normal"><span class="text-[#FABE4C]">Be the
                         Penguins</span>
                     of Winter</h1>
-                <p class="w-3/5 text-[#3E3E3E;] font-roboto text-base font-normal leading-6 pb-4">Lorem Ipsum is simply
+                <p class="lg:w-3/5 w-full text-[#3E3E3E;] font-roboto text-base font-normal leading-6 pb-4">Lorem Ipsum is simply
                     dummy text of the printing
                     and typesetting industry.</p>
                 <button
@@ -180,8 +183,10 @@
                             <img src="./icons/house.png" alt="">
                         </div>
                         <div class="basis-5/6">
-                            <h4 class="font-roboto text-[#363958] text-2xl font-bold leading-6 pb-2">Find the Perfect Fit</h4>
-                            <p class="text-[#3E3E3E] font-roboto text-base font-normal leading-6 w-9/12">Everybody is different, which is why we offer styles for every body.</p>
+                            <h4 class="font-roboto text-[#363958] text-2xl font-bold leading-6 pb-2">Find the Perfect
+                                Fit</h4>
+                            <p class="text-[#3E3E3E] font-roboto text-base font-normal leading-6 lg:w-9/12">Everybody is
+                                different, which is why we offer styles for every body.</p>
                         </div>
                     </div>
                     <div class="flex justify-between items-center gap-6 rounded-md shadow bg-[#fff] px-7 py-5">
@@ -190,7 +195,9 @@
                         </div>
                         <div class="basis-5/6">
                             <h4 class="font-roboto text-[#363958] text-2xl font-bold leading-6 pb-2">Free Exchanges</h4>
-                            <p class="text-[#3E3E3E] font-roboto text-base font-normal leading-6 w-9/12">One of the many reasons you can shop with peace of mind.</p>
+                            <p class="text-[#3E3E3E] font-roboto text-base font-normal leading-6 lg:w-9/12">One of the
+                                many
+                                reasons you can shop with peace of mind.</p>
                         </div>
                     </div>
                     <div class="flex justify-between items-center gap-6 rounded-md shadow bg-[#fff] px-7 py-5">
@@ -198,19 +205,25 @@
                             <img src="./icons/question.png" alt="">
                         </div>
                         <div class="basis-5/6">
-                            <h4 class="font-roboto text-[#363958] text-2xl font-bold leading-6 pb-2">Contact Our Seller</h4>
-                            <p class="text-[#3E3E3E] font-roboto text-base font-normal leading-6 w-9/12">They are here to help you. That's quite literally what we pay them for.</p>
+                            <h4 class="font-roboto text-[#363958] text-2xl font-bold leading-6 pb-2">Contact Our Seller
+                            </h4>
+                            <p class="text-[#3E3E3E] font-roboto text-base font-normal leading-6 lg:w-9/12">They are
+                                here
+                                to help you. That's quite literally what we pay them for.</p>
                         </div>
                     </div>
                 </div>
                 <div class="basis-3/5 py-6">
-                    <img class="w-full h-5/6" src="./images/shopping.png" alt="">
+                    <img class="w-full lg:h-5/6" src="./images/shopping.png" alt="">
                 </div>
             </div>
         </section>
     </main>
     <footer>
-
+        <div class="py-10 px-10 lg:py-14 lg:px-32 bg-[#FFFBF0]">
+            <h2 class="text-center text-[#363958] font-montserrat font-medium text-xl">All Right Reserved By <span
+                    class="text-[#FABE4C]">Mahdi Hasan</span></h2>
+        </div>
     </footer>
 </body>
 
